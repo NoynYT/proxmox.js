@@ -1,0 +1,23 @@
+{
+  "name": "proxmox",
+  "version": "0.1.1",
+  "description": "proxmox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoynYT/proxmox.js.git"
+  },
+  "author": "NoynYT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoynYT/proxmox.js/issues"
+  },
+  "homepage": "https://github.com/NoynYT/proxmox.js#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}

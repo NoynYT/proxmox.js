@@ -1,0 +1,14 @@
+{
+    "configurations": [
+    {
+        "name": "login test function",
+        "program": "${workspaceFolder}/test/logintest.js",
+        "request": "launch",
+        "runtimeExecutable": "node",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "node"
+    }
+    ]
+}
