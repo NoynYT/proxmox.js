@@ -1,8 +1,28 @@
 {
     "configurations": [
     {
-        "name": "login test function",
-        "program": "${workspaceFolder}/test/logintest.js",
+        "name": "get version test function",
+        "program": "${workspaceFolder}/test/getvertest.js",
+        "request": "launch",
+        "runtimeExecutable": "node",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "node"
+    },
+    {
+        "name": "request api test function",
+        "program": "${workspaceFolder}/test/reqtest.js",
+        "request": "launch",
+        "runtimeExecutable": "node",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "node"
+    },
+    {
+        "name": "node pve test function",
+        "program": "${workspaceFolder}/test/nodetest.js",
         "request": "launch",
         "runtimeExecutable": "node",
         "skipFiles": [
