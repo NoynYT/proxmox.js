@@ -10,7 +10,12 @@ module.exports = {
         if (!global.proxmoxusercookie) throw Error("Login has not been initiated yet, use \"login()\".");
         else{
             var res = await rp.get(`${global.apilink}/version`, {"headers": {"Cookie": `PVEAuthCookie=${global.proxmoxusercookie}`}})
-            return JSON.parse(res).data
+            var ver = JSON.parse(res).data
+            return {
+                version: ver.version,
+                release: ver.release,
+                repoid: ver.repoid
+            }
         }
     },
     /**

@@ -1,6 +1,6 @@
 {
   "name": "proxmox-api.js",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "proxmox",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/NoynYT/proxmox.js#readme",
   "dependencies": {
-    "request": "^2.88.2",
     "request-promise": "^4.2.6"
   }
 }
